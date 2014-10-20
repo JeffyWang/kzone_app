@@ -1,0 +1,43 @@
+<ion-side-menus>
+
+  <ion-pane ion-side-menu-content>
+    <ion-nav-bar class="bar-stable nav-title-slide-ios7">
+      <ion-nav-back-button class="button-clear"><i class="icon ion-ios7-arrow-back"></i> Back</ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view>
+  </ion-pane>
+
+  <ion-side-menu side="left">
+    <header class="bar bar-header bar-stable">
+      <h1 class="title">Left</h1>
+    </header>
+    <ion-content class="has-header">
+      <ion-list>
+        <ion-item nav-clear menu-close ng-click="login()">
+          Login
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/kzone/ktv">
+          KTV
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/kzone/info">
+          资讯
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/kzone/game">
+          游戏
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/kzone/activity">
+          活动
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/kzone/city">
+          城市
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/kzone/personal">
+          个人
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/kzone/setting">
+          设置
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
